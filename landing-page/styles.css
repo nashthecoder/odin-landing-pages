@@ -1,0 +1,43 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flex-container {
+    flex-direction: row;
+}
+
+.flex-container .hero {
+    background: #1F2937;
+    flex:1;
+    height: 400px;
+    width: 100%;
+}
+
+.flex-container .projects {
+    flex:1;
+    height: 400px;
+    width: 100%;
+}
+
+.flex-container .testimonial {
+    background: #E5E7EB;
+    flex:1;
+    height: 400px;
+    width: 100%;
+}
+
+.flex-container .call-to-action {
+    flex:1;
+    height: 400px;
+    width: 100%;
+}
+
+
+.flex-container .footer {
+    background: #1F2937;
+    flex:1;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    color: #E5E7EB;
+}
