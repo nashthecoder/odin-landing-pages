@@ -1,8 +1,8 @@
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
-
 }
+
 
 .flex-container {
     flex-direction: row;
@@ -46,40 +46,93 @@
 .social {
     margin-left: 50px;
 }
+
+.social {
+    margin-top: -10px;
+    border-radius: 10px;
+}
+
+.hero-image{
+    width: 400px;
+    height: 300px;
+    padding-left: 100px;
+}
+
 .hero {
     padding: 20px 0;
     display: flex;
     justify-content: center;
 }
+
 .hero-content {
+    padding: 40px;
     display: flex;
     font-size: 18px;
-    width: 900px;
+    width: 1000px;
     color:  #E5E7EB;
     justify-content: space-around;
 }
 
-.flex-container .projects {
+.top-text {
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+
+.hero-text{
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+
+
+.project-grid-container {
     display: flex;
+    padding-bottom: 90px;
+}
+
+.project-grid {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    align-items: center;
+}
+
+.project-text {
+    padding: 10px;
+}
+
+.project-grid-item {
+    flex: 1;
+    width: 250px;
     height: 300px;
+    margin: 20px ;
+}
+
+.project-grid img  {
+    border-radius: 10px;
+}
+
+.project-grid-item .project-text {
+    padding-left: 10px;
+}
+
+img {
+    border-color: #1F2937;
+    border-style: solid;
+    border-width: 4px;
 }
 
 h3 {
     text-align: center;
     line-height: 100px;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
-.project {
-    flex: 1;
-    border-radius: 10px;
-    border-width: 10px;
-    width: 20px;
-    height: 20px;
-    border-style:solid;
-    border-color: #3882F6;
-    padding: 80px;
-    margin: 40px;
-}
+
 
 .flex-container .quote {
     background: #E5E7EB;
@@ -96,9 +149,12 @@ h3 {
 }
 
 .flex-container .call-to-action {
-    background: #ffffff ;
+    display: flex;
+    margin: 100px;
+    border-radius: 10px;
+    background: #3882F6;
     flex:1;
-    height: 200px;
+    height: 150px;
     line-height: 200px;
     text-align: center;
 }
@@ -106,10 +162,14 @@ h3 {
 button {
     background: #3882F6;
     border-radius: 10px;
-    width: 75%;
-    height: 50%;
     border-style: none;
     color: #ffffff;
+    padding: 10px
+}
+
+.call-button {
+    border-style: solid;
+    border-color: #ffffff;
 }
 
 .flex-container .footer {
